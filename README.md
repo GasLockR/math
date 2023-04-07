@@ -19,6 +19,9 @@ $$ \mathbb{E}[S] = \int_{0}^{\infty} s \ dF(s) $$
 
 In the future, we can build a more sophisticated model that also takes into account other data not just historical gas data. For example, if we know there will be an upgrade to the network in 2 weeks or a big NFT sale, we can use this information to inform our model that the probability distribution will be skewed as a result.
 
-Ideally we would use black-scholes to price the options but this may be expensive to run on-chain, although we can always run this in a ZK circuit as well and simply submit the proof that we calculated everything correctly.
+Ideally we would use black-scholes to price the options.
 
 ![alt text](black_scholes.png "Black Scholes Model").
+
+But this may be expensive to run on-chain, although we can always run this in a ZK circuit as well and simply submit the proof that we calculated everything correctly.
+
